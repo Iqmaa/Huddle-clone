@@ -1,0 +1,16 @@
+main{
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'c d'
+    ;
+}
+.blue{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(bg-hero-desktop.svg);
+    background-color:  hsl(193, 100%, 96%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
