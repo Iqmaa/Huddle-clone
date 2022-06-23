@@ -1,8 +1,15 @@
-main{
+html{
+    background-color: rgb(6, 49, 49);
+}
+body,main{
+    margin: 3px;
+    background-color: white;
     display: grid;
     grid-template-areas: 
-    'a b'
-    'c d'
+   'a'
+   'b'
+   'c'
+   'd'
     ;
 }
 .blue{
@@ -13,4 +20,48 @@ main{
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.pink{
+    background-color:  hsl(322, 100%, 66%);
+    border-color:  hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.white{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    align-items: right;
+    display: flex;
+    justify-content: right;
+}
+footer{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(6, 49, 49);
+    
+}
+.mainf1{
+    padding: 15px;
+}
+.mainf2{
+    padding: 15px;
+}
+.mainf3{
+    padding: 15px;
+}
+.right{
+    align-items: right;
+    display: flex;
+    justify-content: right;
+}
+.middlebox{
+    display: grid;
+    justify-content: center;
+    box-sizing: border-box;
 }
